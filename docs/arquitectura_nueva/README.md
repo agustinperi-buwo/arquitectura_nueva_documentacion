@@ -77,6 +77,3 @@ flowchart LR
 - Para informes por proyecto usar `v_posteos` filtrando por `proyecto_id`.
 - Las tablas con prefijo `bk_` o `_stg_` y la tabla `x_timeline_stg` son internas: no usarlas para análisis.
 
-## Datos personales
-
-Solo se recolecta contenido de páginas y perfiles públicos. Los datos de autores de comentarios se anonimizan en las salidas de análisis; los atributos de `autores` son estimaciones estadísticas, no datos declarados.
