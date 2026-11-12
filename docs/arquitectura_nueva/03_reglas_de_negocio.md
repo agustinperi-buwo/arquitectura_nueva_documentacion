@@ -46,7 +46,7 @@ dia_argentino = DATE(time_created - 3 h)
 | Arquitectura | Corte | Consecuencia |
 |---|---|---|
 | Vieja | Día UTC | Los posteos de 21:00 a 23:59 ARG caen en el día siguiente y, si la corrida del día siguiente no los recupera, se pierden (Facebook graph ~50/día; X por `LIMITE_DIARIO`; IG por tope de Apify) |
-| Nueva | Día argentino | Sin hueco. Con `SCRAPEO_COMPARTIDO=1` la ventana de extracción cubre UTC D 00:00 a D+1 02:59:59 y cada arquitectura recorta lo suyo |
+| Nueva | Día argentino | Sin hueco |
 
 ## 4. Deduplicación
 
